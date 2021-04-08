@@ -1,0 +1,27 @@
+.pagination {
+  display: block;
+  width: 35%;
+  margin: 0 auto;
+}
+
+.pagination a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+.productName {
+    text-decoration: none;
+    font-size : 20px;
+    font-weight: bold;
+}
